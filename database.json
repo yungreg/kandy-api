@@ -3,22 +3,22 @@
     {
       "id": 1,
       "address": "123 OuttaSpace Lane",
-      "locationSqFt": "52 sq ft",
-      "employeeId": 2,
+      "locationsqft": "52 sq ft",
+      "employeeid": 1,
       "name": "downtown location"
     },
     {
       "id": 2,
       "address": "1076 Luella Unions",
-      "locationSqFt": "800 sq ft",
-      "employeeId": 1,
+      "locationsqft": "800 sq ft",
+      "employeeid": 1,
       "name": "Suburbs location"
     },
     {
       "id": 3,
       "address": "74293 Lexus Mill",
-      "locationSqFt": "650 sq ft",
-      "employeeId": 4,
+      "locationsqft": "650 sq ft",
+      "employeeid": 1,
       "name": "mixed-use location"
     }
   ],
@@ -27,96 +27,96 @@
       "id": 1,
       "name": "Snake Plisken",
       "email": "solidussux@konami.jp",
-      "isStaff": false
+      "isstaff": false
     },
     {
       "id": 2,
       "name": "Big Boss",
       "email": "iamnotTheBoss@konami.jp",
-      "isStaff": false
+      "isstaff": false
     },
     {
       "id": 3,
       "name": "THE Boss",
       "email": "iamactuallyTheBoss@konami.jp",
-      "isStaff": true
+      "isstaff": true
     }
   ],
   "customers": [
     {
       "id": 1,
-      "userId": "1",
-      "loyaltyNumber": 34562
+      "userid": "1",
+      "loyaltynumber": 34562
     }
   ],
   "employees": [
     {
       "id": 1,
-      "userId": 3,
-      "startDate": "August 13, 1992",
-      "payRateHourly": 15.75
+      "userid": 3,
+      "startdate": "August 13, 1992",
+      "payratehourly": 15.75
     }
   ],
   "products": [
     {
       "id": 1,
-      "productTypeId": 1,
+      "producttypeid": 1,
       "name": "Lifesavers",
-      "pricePerUnit": 1.5
+      "priceperunit": 1.5
     },
     {
       "id": 2,
-      "productTypeId": 3,
+      "producttypeid": 3,
       "name": "Hershey's Kiss",
-      "pricePerUnit": 0.10
+      "priceperunit": 0.10
     },
     {
       "id": 3,
-      "productTypeId": 2,
+      "producttypeid": 2,
       "name": "Bubble Yum",
-      "pricePerUnit": 0.75
+      "priceperunit": 0.75
     },
     {
       "id": 4,
-      "productTypeId": 4,
+      "producttypeid": 4,
       "name": "Jarritos",
-      "pricePerUnit": 2.5
+      "priceperunit": 2.5
     }
   ],
-  "productType": [
+  "producttype": [
     {
       "id": 1,
-      "kandyType": "Hard Candy"
+      "kandytype": "Hard Candy"
     },
     {
       "id": 2,
-      "kandyType": "Gum"
+      "kandytype": "Gum"
     },
     {
       "id": 3,
-      "kandyType": "Chocolate"
+      "kandytype": "Chocolate"
     },
     {
       "id": 4,
-      "kandyType": "Sodas"
+      "kandytype": "Sodas"
     }
   ],
-  "productLocations": [
+  "productlocations": [
     {
       "id": 1,
-      "productId": 1,
-      "locationId": 2
+      "productid": 1,
+      "locationid": 2
     }
   ],
   "purchases": [
     {
       "id": 1,
-      "customerId": 1,
-      "productId": 1,
-      "purchaseQuantity": 2,
-      "locationId": 2,
-      "purchaseDate": 7278928674,
-      "productLocationId": 1
+      "customerid": 1,
+      "productid": 1,
+      "purchasequantity": 2,
+      "locationid": 2,
+      "purchasedate": 7278928674,
+      "productlocationid": 1
     }
   ]
 }
